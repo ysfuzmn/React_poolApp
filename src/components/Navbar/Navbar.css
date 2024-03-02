@@ -1,0 +1,53 @@
+/* Navbar.css */
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #FFFFFF;
+  color: black;
+  padding: 15px;
+  width: calc(100% - 30px); /* Subtract the sum of right and left margin values */
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  margin-right: 20px; 
+  margin-left: 20px; 
+}
+
+.logo-section, .main-section, .pools-section, .contact-section {
+  cursor: pointer;
+  width: 18%;
+}
+
+.flyout-menu {
+  display: none;
+  position: absolute;
+  background-color: #FFFFFF;
+  padding: 15px;
+  border: 1px solid #ececec;
+
+}
+
+.pools-section:hover .flyout-menu {
+  display: block;
+
+}
+
+.flyout-menu ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.flyout-menu li {
+  padding: 5px;
+  cursor: pointer;
+  margin-top: 0rem;
+}
+
+@media (max-width: 768px) {
+  .navbar {
+    height: 5rem;
+  }
+
+}

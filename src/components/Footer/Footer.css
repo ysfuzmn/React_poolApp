@@ -1,0 +1,22 @@
+
+.footer {
+    text-align: center !important;
+    background-color: #FFFFFF;
+    color: black;
+    padding: 15px;
+    width: calc(100% - 30px); 
+    box-shadow: 0 2px 5px rgba(0 , 0, 0, 0.1);
+    border-radius: 10px;
+    margin-right: 20px; 
+    margin-left: 20px; 
+    padding: 15px;
+
+  }
+  
+  .footer_logo {
+    cursor: pointer;
+    width: 18%;
+  }
+  
+  
+  

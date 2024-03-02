@@ -1,0 +1,45 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Signika&display=swap');
+  
+  @tailwind base;
+  @tailwind components;
+  @tailwind utilities;
+
+  body {
+    font-family: 'Signika', sans-serif;
+    background-image: linear-gradient(to bottom, #ffffff, #a3cdfd);
+    min-height: 100vh;
+    user-select: none;
+  }
+
+  .small-text {
+    font-size: 0.75rem;
+  }
+  .date{
+    font-size: 0.7rem;
+    font-weight: 300;
+    font-style: normal;
+  
+  }
+
+  @media (max-width: 768px) {
+    .search {
+      width: 100%; /* Expand to full width */
+      padding: 1rem; /* Reduce padding */
+      margin-bottom: 1rem; /* Optimize spacing */
+  
+      
+  
+      
+     
+    }
+  }
+ 
+
+ 
+
+ 
+
+
+  
+
