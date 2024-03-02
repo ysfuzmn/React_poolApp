@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/React_poolApp/static/css/main.be7bd153.css",
+    "main.js": "/React_poolApp/static/js/main.35cd48d1.js",
+    "index.html": "/React_poolApp/index.html",
+    "main.be7bd153.css.map": "/React_poolApp/static/css/main.be7bd153.css.map",
+    "main.35cd48d1.js.map": "/React_poolApp/static/js/main.35cd48d1.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.be7bd153.css",
+    "static/js/main.35cd48d1.js"
+  ]
+}
