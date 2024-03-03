@@ -15,7 +15,7 @@ const App = () => {
         <Routes>
           <Route path="/React_poolApp" element={<PollList />} />
           <Route path="/company/:companyName" element={<CompanyDetails companies={companies} />} />
-          <Route path="/contact" element={<ContactForm />} />
+          <Route path="/React_poolApp/contact" element={<ContactForm />} />
         </Routes>
         <Footer />
       </div>
