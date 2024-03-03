@@ -53,7 +53,7 @@ const Search = ({ onCitySearch }) => {
                         height: '5px',
                         backgroundColor: 'transparent',
                         borderBottom: '1px solid #cbd5e0',
-                        borderColor: error ? 'red' : '#cbd5e0' // Set border color based on error state
+                        borderColor: error ? 'red' : '#cbd5e0'
                     }}
                 />
                 <button

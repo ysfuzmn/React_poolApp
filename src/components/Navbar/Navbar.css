@@ -1,4 +1,4 @@
-/* Navbar.css */
+
 
 .navbar {
   display: flex;
@@ -7,7 +7,8 @@
   background-color: #FFFFFF;
   color: black;
   padding: 15px;
-  width: calc(100% - 30px); /* Subtract the sum of right and left margin values */
+  height: 6rem;
+  width: calc(100% - 30px); 
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
   border-radius: 10px;
   margin-right: 20px; 
@@ -45,9 +46,3 @@
   margin-top: 0rem;
 }
 
-@media (max-width: 768px) {
-  .navbar {
-    height: 5rem;
-  }
-
-}

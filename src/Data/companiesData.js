@@ -1,4 +1,4 @@
-// companiesData.js
+
 
 const companies = [
   {

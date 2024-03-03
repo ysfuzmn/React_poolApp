@@ -41,14 +41,12 @@ const PollList = () => {
     ? companies.filter((company) => company.city.toLowerCase().includes(searchedCity.toLowerCase()))
     : companies;
 
-  // Gruplanmış partilere göre adayları ayırmak için bir obje oluştur
   const groupedCandidates = {};
   filteredCompanies.forEach((company) => {
     company.mayors.forEach((mayor) => {
       if (!groupedCandidates[mayor.party]) {
         groupedCandidates[mayor.party] = [];
       }
-      // Check if mayor already exists
       const mayorExists = groupedCandidates[mayor.party].some(existingMayor => existingMayor.name === mayor.name);
       if (!mayorExists) {
         groupedCandidates[mayor.party].push({

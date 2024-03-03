@@ -1,7 +1,6 @@
 import React from "react";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import PollList from "./components/PollList";
-import PollDetails from "./components/PollDetails";
 import Navbar from './components/Navbar/Navbar';
 import Footer from "./components/Footer/Footer";
 import ContactForm from "./components/Contact/ContactForm";
@@ -14,10 +13,8 @@ const App = () => {
       <div>
         <Navbar/>
         <Routes>
-          <Route path="/" element={<PollList />} />
-          <Route path="/polls/:pollId" element={<PollDetails />} />
+          <Route path="/React_poolApp" element={<PollList />} />
           <Route path="/company/:companyName" element={<CompanyDetails companies={companies} />} />
-
           <Route path="/contact" element={<ContactForm />} />
         </Routes>
         <Footer />

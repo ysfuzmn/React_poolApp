@@ -24,9 +24,9 @@
 
   @media (max-width: 768px) {
     .search {
-      width: 100%; /* Expand to full width */
-      padding: 1rem; /* Reduce padding */
-      margin-bottom: 1rem; /* Optimize spacing */
+      width: 100%; 
+      padding: 1rem;
+      margin-bottom: 1rem;
   
       
   

@@ -1,4 +1,4 @@
-// Footer.js
+
 import React from 'react';
 import './Footer.css';
 
@@ -6,12 +6,12 @@ const Footer = () => {
   return (
     <footer>
       <div className="footer">
-        {/* Top Row */}
+       
         <div className=" justify-center items-center">
-          {/* Logo Section */}
+      
           <div className="flex items-center justify-center">
-            <img src="/logo1.png" alt="Logo" className="footer_logo" />
-            {/* Description Section */}
+          <img src={`${process.env.PUBLIC_URL}/logo1.png`} alt="footer_logo" />
+        
             <p className='font-light'>Bu sitenin herhangi bir siyasi oluşumla alakası yoktur.Sadece kamuoyu anket şirketlerinin verilerini göstermek amacıyla hazırlanmıştır.</p>
           </div>
          
@@ -34,9 +34,9 @@ const Footer = () => {
         </div>
 
 
-        {/* Bottom Row */}
+
         <div className="mt-4">
-          {/* Copyright Section */}
+
           <div className="text-center">
             <p>&copy; 2024 Anketler.org. Bütün hakları saklıdır.</p>
           </div>

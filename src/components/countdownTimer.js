@@ -1,14 +1,14 @@
 import React, { useState, useEffect } from "react";
 
 const CountdownTimer = () => {
-  const targetDate = new Date("2024-03-31T09:00:00Z"); // March 31, 2024 at 9:00 AM UTC
+  const targetDate = new Date("2024-03-31T09:00:00Z");
 
   const calculateTimeRemaining = () => {
     const now = new Date();
     const timeDifference = targetDate - now;
 
     if (timeDifference <= 0) {
-      // The target date has passed
+
       return {
         days: 0,
         hours: 0,
